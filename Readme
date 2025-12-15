@@ -9,3 +9,4 @@ Press "Record background button" to substract the record spectrum from the subse
 To disable acquistion press "Stop" button. 
 To change the attanuation setting stop the acquisition first and strat it again with new gain settings.
 If full pulse waveform is not visible change the "window_ns" value in line 744.
+The rolling time window can be adjusted in line 672
