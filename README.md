@@ -1,10 +1,1 @@
-Download script chargelogger_14112025V1.py and logo.png file and place both files in same folder.
-Run chargelogger_14112025V1.py in Python (spyder.3.11). A ICT Live charge logger GUI and figure file will appear. Close the figure file. 
-In the source menu select "Real" if ADC is connected to the network with IP address "192.168.0.112". To change the IP address of ADC go to the line 25 of script.
-From the channel drop down list select the channel number to which output of ICT is connected. 
-For continuous acquistion keep arm number to 0.
-Set the gain of ADC digitizer by setting attenuation value. For protection of ADC low gain setting is set by default. 
-Press start button to enalbe acquistion. 
-Press "Record background button" to substract the record spectrum from the subsequent acquisition. 
-To disable acquistion press "Stop" button. 
-To change the attanuation setting stop the acquisition first and strat it again with new gain settings.
+Python-based GUI for calibration and charge measurement using a Bergoz ICT and Libera ADC-500. Communicates via EPICS Channel Access, providing real-time waveform visualization, ADC control, automated offset correction, background subtraction, and continuous charge logging for accelerator diagnostics.
